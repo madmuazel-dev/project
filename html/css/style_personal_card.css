@@ -1,0 +1,279 @@
+html, body {margin:0;padding:0;}
+
+body{
+	font-family: Arial, sans-serif;
+	background-color: grey;
+	zoom: 100%;
+}
+
+.back{
+	position: absolute;
+	top: 2px;
+	left: 4px;
+}
+
+.back img{
+	cursor: pointer;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+.card{
+	position: absolute;
+	border: 5px solid #2c2e3e;
+	margin: 0 auto;
+	padding: 0px;
+	width: 90%;
+	height: 90%;
+	background-color: white;
+	position: absolute;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.image input{
+	width: 100%;
+	font-size: 12px;
+	border:1px solid black;
+
+}
+
+.image{
+	width: 11%;
+	text-align: center;
+	float: left;
+	font-size: 8px;
+}
+
+.image img{
+	box-sizing: border-box;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	width: 100%;
+
+}
+
+.head{
+	font-size: 14px;
+	background-color: #e9ecf3;
+	width: 89%;
+	float: left;
+}
+
+.head input{
+	font-size: 12px;
+	width: 80%;
+}
+
+.content{
+	width: 89%;
+	display: inline-block;
+	background-color: #e9ecf3;
+	border-bottom: 5px solid #2c2e3e;
+	border-top: 5px solid #2c2e3e;
+}
+
+.info{
+	margin-left: 16px;
+	height: 100px;
+	line-height: 36px;
+	font-size: 14px;
+	float: left;
+	width:29%;
+
+}
+
+.info input{
+	font-size: 12px;
+	width: 100%;
+	border: 1px solid black;
+}
+
+.bottom{
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	position: absolute;
+	background-color: #e9ecf3;
+	height: 50%;
+	font-size: 14px;
+}
+
+.line{
+	background-color: #2c2e3e;
+	width: 100%;
+	height: 20px;
+	position: absolute;
+	bottom: 50%;
+}
+
+.menu{
+	height: 60px;
+	line-height: 60px;
+	position: absolute;
+	bottom: 52%;
+	width: 80%;
+	background-color: #2c2e3e;
+	margin-left: 40px;
+	border-radius: 30px 30px 0 0;
+}
+
+.menu input{
+	cursor: pointer;
+	border-radius: 8px;
+	margin-left: 16px;
+	width: 12%;
+	height: 40px;
+	border: 1px solid black;
+	background-color: #bac0cf;
+}
+
+.menu input:hover{
+	background-color: white;
+}
+
+.bottom input{
+	font-size: 12px;
+	border: 1px solid black;
+
+}
+
+.save-button{
+	position: absolute;
+	right: 0;
+	bottom: -1px;
+	background-color: #2c2e3e;
+	border-radius: 12px 0 0 0;
+}
+
+.save-button input{
+	background-color: #bac0cf;
+	border-radius: 5px;
+	font-size: 14px;
+	cursor: pointer;
+	border: 1px solid #bac0cf;
+	margin: 16px;
+
+}
+
+#save-button-1:hover{
+	background-color: #6699CC;
+	border: 1px solid black;
+}
+
+#delete-button-1:hover{
+	background-color: #FF3333;
+	border: 1px solid black;
+
+}
+
+.dropdown{
+    cursor: pointer;
+    width: 200px;
+    padding-top: 8px;
+    float: left;
+    margin-right: 16px;
+    position: relative;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.dropdown button{
+    cursor: pointer;
+    font-size: 12px;
+    background-color: white;
+    border: 1px solid black;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+
+.dropdown-content{
+    cursor: pointer;
+    background-color: white;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 99%;
+    border: 1px solid black;
+
+}
+
+.dropdown-content label {
+    cursor: pointer;
+  display: block;
+  border-top: 1px solid black;
+
+}
+    
+.dropdown:hover .dropdown-content {
+  display: block;
+  border-radius: 0 0 5px 5px;
+}
+
+.btn_history{
+	margin-left: 72px;	 
+	font-size: 16px;
+	width: 100px;
+	height: 40px;
+}
+
+li {
+
+  list-style-type: none;
+}
+
+ul {
+  margin-top: 0;
+  margin-left: 0;
+  padding-left: 0;
+  margin-bottom: 0;
+
+}
+
+.filters{
+	border-right: 1px solid grey;
+	height: 40px;
+	background-color: white;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+}
+
+.drop{
+	margin-top: 8px;
+	display: inline-block;
+	width: 150px;
+}
+
+.drop button{
+	border: 2px solid black;
+
+}
+
+.checkselect{
+	box-sizing: border-box;
+	border: 2px solid black;
+	width: 150px;
+	background-color: white;
+	position: absolute;
+	cursor: pointer;
+    display: none;
+}
+
+.drop:hover .checkselect{
+	display: block;
+}
+
+.tbl tbody tr:nth-child(odd){
+	background: #CCCCCC;
+}
+
+.tbl tbody tr:nth-child(even){
+	background: #999999;
+}
+
+.main{
+  overflow-y: scroll; 
+  height: 200px;
+}

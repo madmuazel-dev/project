@@ -1,0 +1,341 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 275px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #2c2e3e;
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.sidenav img{
+    margin-left: 35%;
+    margin-bottom: 20px;
+}
+
+.sidenav a {
+    padding: 6px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #4f879b;
+    display: block;
+    border-bottom:2px solid #282a38;
+    height: 45px;
+    line-height: 45px;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+#first{
+    border-top:2px solid #282a38;
+}
+
+.header{
+    padding-right: 16px;
+    line-height: 48px;
+    height: 48px;
+    text-align: right;
+    margin-right: 279px;  
+    background-color: white;
+    border-bottom: 2px solid #d9dce2;
+    color: #1053ab;
+    font-size: 12px;
+}
+
+.main{  
+    top: 0;
+    margin-left: 267px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    background-color: #e9ecf3;
+}
+
+.type{
+    display: block;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #cfd0dd;
+    border-top: 2px solid #cfd0dd;
+    background-color: #e4e7ee;
+}
+
+.type a{
+    border-bottom: 1px solid #4f879b;
+    text-decoration: none;
+    padding: 8px 8px 0px 8px;
+    width: 110px;
+    color: #4f879b;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+}
+
+.type a:hover {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+#sub{
+    margin-top: 6px;
+    background-color: rgb(44,46,62);
+    color: white;
+    border: 0;
+    padding: 8px 16px;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 16px;
+}
+
+#sub:hover{
+    background-color: rgb(44,46,62,0.8);
+}
+
+#exp_xls{
+    margin-top: 6px;
+    background-color: rgb(0,127.5,0);
+    color: white;
+    border: 0;
+    padding: 8px 16px;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#exp_xls:hover{
+    background-color: rgb(0,127.5,0,0.8);
+  
+}
+
+#exp_docx{
+    margin-top: 6px;
+    background-color: rgb(86,119,191);
+    color: white;
+    border: 0;
+    padding: 8px 16px;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#exp_docx:hover{
+    background-color: rgb(86,119,191,0.8);
+  
+}
+
+
+.spisok{
+    float: left;
+    margin-left: 16px;
+    width: 70%;
+}
+
+.spisok td{
+    width: 120px;
+    font-size: 12px;
+}
+
+.content{
+    background-color: white;
+    margin-top: 16px;
+}
+
+.table{
+    width: 100%;
+    background-color: white;
+    padding: 8px;
+    color: #2c2e3e;
+    border-collapse: collapse;
+}
+
+.table tr{
+    border: 1.5px solid #cfd0dd;
+}
+
+.table td{
+    padding: 6px;
+}
+
+.table tr:hover {
+    background-color: #e4e7ee;
+}
+
+
+
+.select{
+    font-size: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.dropdown{
+    cursor: pointer;
+    width: 200px;
+    padding-top: 8px;
+    float: left;
+    margin-right: 16px;
+    position: relative;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.dropdown button{
+    cursor: pointer;
+    font-size: 12px;
+    background-color: white;
+    border: 1px solid black;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+
+.dropdown-content{
+    cursor: pointer;
+    background-color: white;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 99%;
+    border: 1px solid black;
+
+}
+
+.dropdown-content label {
+    cursor: pointer;
+    display: block;
+    border-top: 1px solid black;
+
+}
+    
+.dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 0 0 5px 5px;
+}
+
+.mode{
+    border-top: 2px solid #cfd0dd;
+    border-bottom: 2px solid #cfd0dd;
+    border-left: 2px solid #cfd0dd;
+    width: 100%;
+    display: inline-block;
+    background-color: white;
+    font-size: 12px;
+    margin-bottom: 16px;
+    padding: 8px;
+}
+
+.mode div{
+    padding: 6px;
+    float: left;
+    text-align: center;
+    border: 1px solid black;
+    background-color: #e9ecf3;
+
+}
+
+.mode div:hover{
+    background-color: rgb(233,236,243,0.5);
+    cursor: pointer;
+    border: 1px solid #282a38;
+
+}
+
+.mode-item a{
+    text-decoration: none;
+    color: black;
+}
+
+#table tbody tr:nth-child(odd){
+    background: #fff;
+}
+ 
+#table tbody tr:nth-child(even){
+    background: #F7F7F7;
+}
+
+.exit{
+    border-top:2px solid #282a38;
+    width: 100%;
+    bottom: 22px;
+    position: absolute;
+}
+
+
+.view{
+    border-top: 2px solid #bbbcc9;
+    border-bottom: 2px solid #bbbcc9;
+    height: 48px;
+    background-color: white;
+
+}
+
+.view div{
+    display: inline-block;
+    border-right: 2px solid #bbbcc9;
+    height: 100%;
+    padding-right: 12px;
+}
+
+.view button{
+    border: 1px solid #636577;
+    border-radius: 3px;
+    background-color: #bbbcc9;
+    height: 32px;
+    width: 96px;
+    margin-left: 12px;
+    margin-top: 8px;
+    cursor: pointer; 
+}
+
+.view button.tool{
+    background-color: #e5e5e5;
+    border: 1px solid #bbbcc9;
+}
+
+.view button.tool:hover{
+    background-color: grey;
+    border: 1px solid #636577;
+}
+
+
+.view button:hover{
+    background-color: rgb(187,188,201,0.8);
+}
+
+.more{
+    font-size: 14px;
+    float: left; 
+    margin: 12px;
+}
+
+.more div{
+    cursor: pointer;
+    color: rgb(5,40,230);
+    border-bottom: 1px solid rgb(5,40,230);
+}
+
+.more div:hover{
+    color: rgb(5,40,230,0.7);
+    border-bottom: 1px solid rgb(5,40,230,0.7);
+}
+
+.x1{
+    margin-top: 32px;
+    height: 44px;
+    border-top: 2px solid #bbbcc9;
+    border-bottom: 2px solid #bbbcc9;
+}
+
+#more:hover{
+    
+}
